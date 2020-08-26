@@ -1,0 +1,10 @@
+- hosts: all
+  become: yes
+  tasks:
+  - name: Ensure ntp server.
+    yum: name=ntp state=present
+  - name: Esnure NTP is runing
+    service: 
+      name: ntpd 
+      state: started 
+      enabled: yes

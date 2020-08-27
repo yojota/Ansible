@@ -6,7 +6,7 @@ In this repository the idea is to folow the instructions for Ansible DevOps
 
  * [Repository Ansible for Devops](https://github.com/geerlingguy/ansible-for-devops)
  * [Plalist Youtube](https://www.youtube.com/playlist?list=PL2_OBreMn7FqZkvMYt6ATmgC0KAGGJNAN)
- * [Ebook PDF](Ansible for DevOps .pdf)
+ * [Ebook PDF](https://github.com/yojota/Ansible/blob/master/Ansible%20for%20DevOps%20.pdf)
  
 ## Contact
 

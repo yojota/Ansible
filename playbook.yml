@@ -3,6 +3,12 @@
   tasks:
   - name: Ensure ntp server.
     yum: name=ntp state=present
+
+  - shell:
+     if rpm -qa | grep -qw ntp; then
+      yum install -y ntp
+     fi
+     
   - name: Esnure NTP is runing
     service: 
       name: ntpd 
